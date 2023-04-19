@@ -1,0 +1,11 @@
+parm topol.top [system]
+parm reference.prmtop [reftop]
+reference reference.inpcrd parm [reftop] [ref]
+trajin trajectory.06.dcd parm [system]
+
+align @N,C,CA ref [ref]
+rms fit @N,C,CA
+rms traj06 ref [ref] @N,C,CA out internal-protein-rmsd-06.dat
+
+go
+

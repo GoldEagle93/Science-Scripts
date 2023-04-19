@@ -1,0 +1,6 @@
+parm topol.top
+trajin topol.crd
+trajout top.pdb
+run
+
+

@@ -1,0 +1,11 @@
+parm topol.top [system]
+parm reference.prmtop [reftop]
+reference reference.inpcrd parm [reftop] [ref]
+trajin trajectory.03.dcd parm [system]
+
+align @O5',C4',C1' ref [ref]
+rms fit @O5',C4',C1'
+rms traj03 ref [ref] @O5',C4',C1' out internal-DNA-rmsd-03.dat
+
+go
+

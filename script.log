@@ -1,0 +1,6 @@
+/home/reza.esmaeiliesk/Scripts
+c0702a-s16.ufhpc
+Tue Oct  4 08:05:42 EDT 2022
+/tmp/slurmd/job48363586/slurm_script: line 18: deactivate: command not found
+/tmp/slurmd/job48363586/slurm_script: line 19: conda: command not found
+slurmstepd: error: *** JOB 48363586 ON c0702a-s16 CANCELLED AT 2022-10-04T12:39:19 ***
